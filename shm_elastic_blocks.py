@@ -1,6 +1,4 @@
 import matplotlib.pyplot as plt
-import turtle
-import time
 
 A_0 = 5
 k_1 = 2
