@@ -59,6 +59,6 @@ while time < sim_time:
     li_pos_1.append(state[0])
     li_pos_2.append(state[1])
     
-t_start = 50
-plt.plot(li_time[t_start/dt:], li_pos_1[t_start/dt:])
-plt.plot(li_time[t_start/dt:], li_pos_2[t_start/dt:])
+start = 50//dt
+plt.plot(li_time[start:], li_pos_1[start:])
+plt.plot(li_time[start:], li_pos_2[start:])
